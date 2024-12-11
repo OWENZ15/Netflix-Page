@@ -66,4 +66,15 @@ header .logo {
 }
 .search input::placeholder {
   color: #fff;
+}
+
+@media (max-width: 600px) {
+  header {
+    padding: 20px;
+  }
+  .search {
+    position: relative;
+    width: calc(100% - 20px);
+    height: 40px;
+  }
 }/*# sourceMappingURL=style.css.map */
